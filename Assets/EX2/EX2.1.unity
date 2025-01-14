@@ -868,7 +868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6035428768901458039, guid: e3432449f218b4f48ade34c0875846e6, type: 3}
       propertyPath: m_Name
-      value: InteractableSquare
+      value: BlueBlock
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7654026422225935453, guid: e3432449f218b4f48ade34c0875846e6, type: 3}

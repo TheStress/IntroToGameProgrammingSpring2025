@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2283415579617699446}
   - component: {fileID: 4929736841990964847}
   m_Layer: 0
-  m_Name: InteractableSquare
+  m_Name: BlueBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
