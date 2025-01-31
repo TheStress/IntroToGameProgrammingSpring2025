@@ -25,6 +25,7 @@ public class SimplePlayerController : MonoBehaviour
         //The code below controls the character's movement
         //First we make a variable that we'll use to record how we want to move
         Vector2 vel = new Vector2(0,0);
+
         
         //Then we use if statement to figure out what that variable should look like
         
@@ -50,6 +51,14 @@ public class SimplePlayerController : MonoBehaviour
         }
         
         //Finally, I take that variable and I feed it to the component in charge of movement
-        RB.velocity = vel;
+        RB.linearVelocity = vel;
+
+
+        // if player y position is above 6 (how do you code this?)
+        if(transform.position.y > 6) {
+            // inside if statementthen set the position to -6
+            transform.position = new Vector3(transform.position.x, -6, transform.position.z);
+        }
+        // copy and paste for other sides
     }
 }
