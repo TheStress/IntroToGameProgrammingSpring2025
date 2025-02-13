@@ -6,6 +6,8 @@ public class Week2Variables : MonoBehaviour
     // Declaring Variables
     int health = 10;
 
+        
+
     // camelCase, usually for variables
     int numberOfDeaths;
 
@@ -53,6 +55,7 @@ public class Week2Variables : MonoBehaviour
     bool isOnGround = true;
     bool gameStarted = false;
 
+    SpriteRenderer spriteRenderer;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -61,6 +64,19 @@ public class Week2Variables : MonoBehaviour
         // Setting /////////////////////////////////////////////////////////
         int health = 10;
         health = 5;
+
+
+        Vector3 settingPosition = new Vector3(0f, 0f, 0f);
+
+        transform.position = settingPosition;
+        transform.localScale = new Vector3(2f, 2f, 2f);
+
+        transform.rotation = Quaternion.Euler(0, 0, 45f);
+
+
+        Vector3 currentPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+
+
         //health = 0.5f; // Bad data conversions
         //health = false; // Bad data conversions
 
@@ -98,7 +114,7 @@ public class Week2Variables : MonoBehaviour
         float damageDelt = 10.0f;
         float defence = 5f;
 
-        float adjustedDamage = (defence - damageDelt);
+        float adjustedDamage = (damageDelt - defence);
         startingHealth = startingHealth - adjustedDamage;
         Debug.Log(startingHealth);
 
@@ -114,5 +130,9 @@ public class Week2Variables : MonoBehaviour
 
         float currentDamage = totalDamage * debuffPercentAmount * debuffPercentAmount;
         Debug.Log(currentDamage);
+
+
+        float speed = 10;
+        float friction = 0.1f;
     }
 }
