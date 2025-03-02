@@ -5,11 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MidtermWIP/EX3WorkSpace.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/MidtermWIP/Game Over.unity
+    path: Assets/Midterm/Game Over.unity
     guid: 4d46cbe08e8b91747a81e2876bad7ea5
   - enabled: 0
     path: Assets/EX3/Testing.unity
@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EX1/EX1.3.unity
     guid: bbd27d652a55c28488f3b6b1fbe496a9
+  - enabled: 1
+    path: Assets/Midterm/MidtermTemplate.unity
+    guid: 2f76be615e935a6408c25961dab65588
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

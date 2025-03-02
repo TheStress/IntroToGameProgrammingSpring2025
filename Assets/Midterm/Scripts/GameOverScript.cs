@@ -14,8 +14,8 @@ public class GameOverScript : MonoBehaviour
         //If the player hit space. . .
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //Then load the 'Example 3' scene
-            SceneManager.LoadScene("EX3.0");
+            //Then load the 'MidtermTemplate' scene
+            SceneManager.LoadScene("MidtermTemplate");
         }
     }
 }

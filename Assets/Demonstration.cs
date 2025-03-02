@@ -5,6 +5,13 @@ using UnityEngine;
 
 public class Demonstration : MonoBehaviour {
 
+    SpriteRenderer spriteRenderer; // Declare a variable to work with sprite renderer component
+    void Start() {
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Getting the sprite renderer component on the game object and putting it in the variable
+        spriteRenderer.color = Color.white; // Setting the sprite renderers color to white
+    }
+
+
     //int player1Score = 2;
     //int player2Score = 4;
     //int scoreForWin = 10;
@@ -15,20 +22,28 @@ public class Demonstration : MonoBehaviour {
 
     //float speed = 3;
 
-    void Update() {
-        // Imagine an idle game making widgets
-        float widgetsPerSecond = 0f;
-        float factoryProductionPerSecond = 10f;
-        float laborProductionPerSecond = 1f;
-        float upgradeMultiplier = 1.5f;
+    //public ParticleSystem.MinMaxCurve test;
 
-        widgetsPerSecond += factoryProductionPerSecond;
-        widgetsPerSecond += laborProductionPerSecond;
-        widgetsPerSecond = widgetsPerSecond * factoryProductionPerSecond;
+
+
+
+    void Update() {
+        //if(transform.position.x > -10 && transform.position.x < 10) {
+        //    Debug.Log("Game Object within the bounds of -10 and 10");
+        //}
     }
 
 
     void Holder() {
+        // Imagine an idle game making widgets
+        //float widgetsPerSecond = 0f;
+        //float factoryProductionPerSecond = 10f;
+        //float laborProductionPerSecond = 1f;
+        //float upgradeMultiplier = 1.5f;
+
+        //widgetsPerSecond += factoryProductionPerSecond;
+        //widgetsPerSecond += laborProductionPerSecond;
+        //widgetsPerSecond = widgetsPerSecond * factoryProductionPerSecond;
 
         //float xMouse = Input.mousePosition.x;
         //float yMouse = Input.mousePosition.y;
