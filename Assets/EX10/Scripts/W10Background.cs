@@ -10,7 +10,7 @@ public class W10Background : MonoBehaviour
 
         // Once it goes past the tile factor you reset the position
         if(transform.position.y < -tileFactor) {
-            transform.position = Vector3.zero;
+            transform.position = new Vector3(0, 0, 10);
         }
     }
 }
