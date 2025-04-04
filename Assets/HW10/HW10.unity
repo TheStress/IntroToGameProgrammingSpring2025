@@ -240,10 +240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1625208dcd0d1654289b0e447723f1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shapes:
-  - {fileID: 5225596754986361891, guid: 1db8d16f6ab24c64193286a1337eb2ba, type: 3}
-  - {fileID: 7304454411708388636, guid: 01b169a716582ff4c9b127a62c6e8346, type: 3}
-  - {fileID: 1588160422363909835, guid: 1a0f5766d0cdeef4696785117471369e, type: 3}
+  numOfShapes: 0
+  squareSize: {x: 0, y: 0}
+  circlePrefab: {fileID: 0}
 --- !u!4 &1776301817
 Transform:
   m_ObjectHideFlags: 0
