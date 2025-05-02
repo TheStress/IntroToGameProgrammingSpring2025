@@ -9,6 +9,9 @@ TagManager:
   - Coin
   - Enemy
   - Upgrade
+  - VWall
+  - HWall
+  - CanPickUp
   layers:
   - Default
   - TransparentFX
