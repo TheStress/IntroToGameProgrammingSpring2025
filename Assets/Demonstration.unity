@@ -528,7 +528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1259366931}
   - component: {fileID: 1259366930}
-  - component: {fileID: 1259366929}
+  - component: {fileID: 1259366932}
   m_Layer: 0
   m_Name: Square (8)
   m_TagString: Untagged
@@ -536,19 +536,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1259366929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259366928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 010db47770c80d3488b76733085fb686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  test: {fileID: 7767116320263190511, guid: a798af0ab681600468805b14042f1e1a, type: 3}
 --- !u!212 &1259366930
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -619,6 +606,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1259366932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259366928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35a73b290636e64397a47fb5b945141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLocation: {x: 0, y: 0, z: 0}
+  speed: 0.01
 --- !u!1 &1460726429 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7767116320263190511, guid: a798af0ab681600468805b14042f1e1a, type: 3}
@@ -636,7 +637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 010db47770c80d3488b76733085fb686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: {fileID: 0}
 --- !u!1 &1966743873
 GameObject:
   m_ObjectHideFlags: 0
